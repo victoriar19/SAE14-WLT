@@ -66,3 +66,24 @@ main {
 .button:active {
     background-size: 80% 0.07em;
 }
+
+
+/*Page d'accueil :*/
+
+/*Image et texte de la page d'acceuil :*/
+
+.image_acceuil {
+    width: 100%;
+    font-size: 100%;
+}
+
+img.image_accueil {
+    width: 100%;
+}
+
+.paragraphe {
+    color: black;
+    font-weight: bolder;
+    font-size: 160%;
+}
+
