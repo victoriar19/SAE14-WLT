@@ -70,7 +70,7 @@ main {
 
 /*Page d'accueil :*/
 
-/*Image et texte de la page d'acceuil :*/
+/*Image et texte de la page d'accueil :*/
 
 .image_acceuil {
     width: 100%;
@@ -85,5 +85,44 @@ img.image_accueil {
     color: black;
     font-weight: bolder;
     font-size: 160%;
+}
+
+.texte {
+    position: absolute;
+    margin-top: 73%;
+    margin-left: 4%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.titre{
+    color: rgb(150, 179, 86);
+    font-weight: bolder;
+    font-size: 100%;
+} 
+
+
+/*Sous partie actualitée :*/
+
+.grille_actu {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.image_actu {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    color: black;
+    font-size: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 
