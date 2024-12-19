@@ -323,3 +323,143 @@ img.image_accueil {
 }
 
 
+
+/* Point de vue Reponsive  */
+
+/* Ordinateur */
+@media (min-width: 1025px) {
+    /* modifie l'emplacement du texte "l'aventure du vivant!"  */
+    .texte {
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 26%;
+        font-size: 550%;
+    }
+    .titre{
+        font-size: 250%;
+    }
+
+    .image_actu{
+        font-size: 200%;
+    }
+
+}
+
+/* Tablette */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* modifie l'emplacement du texte "l'aventure du vivant!"  */
+    .texte {
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 21%;
+        font-size: 330%;
+    }
+    
+    .lien_a_propos{
+        font-size: 20px;
+        margin-right: 23%;
+    }
+
+    .titre{
+        font-size: 250%;
+    }
+}
+
+/* Portable */
+
+@media (max-width: 768px) {
+
+    header{
+        font-size: 50%;
+    }
+
+    /* modifie l'emplacement du texte "l'aventure du vivant!"  */
+    .texte {
+        position: absolute;
+        margin-top: -68%;
+        margin-left: 12%;
+        font-size: 175%;
+    }
+
+    .titre{
+        font-size: 200%;
+    }
+
+    header span{
+        font-size: 110%;
+    }
+
+    h1{
+        font-size: 100%;
+    }
+
+    .button{  
+        width: 100%;
+        height: 50%;
+        display: flex;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .image_actu{
+        font-size: 80%;
+    }
+    
+    .lien_a_propos{
+        font-size: 20px;
+        margin-right: 18%;
+    }
+
+    .question{
+        font-size: 200%;
+    }
+
+    .corps_de_texte{
+        font-size: 100%;
+    }
+
+    .image_fs{
+        width: 50%;
+    }
+
+    .img_propos{
+        width: 50%;
+    }
+
+    .img_propos_inspirations    {
+        width: 40%;
+    }
+
+    .image_footer {
+        font-size: 80%;
+    }
+
+    .grille {
+        width: 100%;
+        margin: auto;
+        grid-gap: 15px;
+    }
+
+    /* Images dans la grille : */
+
+    .grille_img {
+        width: 120%;
+        height: 120%;
+    }
+
+    /* Texte dans la grille : */
+
+    .grille_img_txt {
+        width: 120%;
+        height: auto;
+        font-size: 10px;      
+    }
+
+    .paragraphe {
+        font-size: 120%;
+    }
+
+}
+
+
