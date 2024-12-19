@@ -26,6 +26,28 @@ main {
     text-align: center;
 }
 
+/*Footer (second bandeau de contact) :*/
+
+.grille_footer {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(197, 197, 197);
+}
+
+
+.image_footer {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    color: black;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
 /*Barre de navigation entre les pages :*/
 .bandeau {
     display: flex;
