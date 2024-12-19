@@ -224,3 +224,47 @@ img.image_accueil {
 }
 
 
+/*Page à propos : */
+
+/*Ecriture de We love tractor : */
+
+.titre_propos{
+    color: rgb(150, 179, 86);
+    font-size: 300%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/*Questions sur le à propos : */
+
+.question{
+    color: black;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+/*Réponses aux questions : */
+
+.corps_de_texte{
+    text-align: center;
+    font-size: 170%;
+}
+
+.vert {
+    color: rgb(150, 179, 86);
+    font-weight: bolder;
+}
+
+.jaune {
+    color: rgb(243, 207, 55);
+    font-weight: bolder;
+}
+
+/* Logo du jeu farming simulator : */
+
+.image_fs{
+    align-items: center;
+    width: 25%;
+}
+
+
