@@ -173,6 +173,54 @@ img.image_accueil {
 
 
 
+/*Page Boutique : */
 
+/* Grille d'images : */
+
+.grille {
+    max-width: 1300px;
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+/* Images dans la grille : */
+
+.grille_img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    font-size: 30px;
+    transition: 400ms;
+    background-color: rgb(227, 227, 227);
+    border-radius: 3%;
+}
+
+/* Texte dans la grille : */
+
+.grille_img_txt {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    object-fit: cover;
+    font-size: 30px;
+    transition: 400ms;
+    background-color: rgb(227, 227, 227);
+    border-radius: 3%;
+    
+}
+
+/* Ajout d'un effet de zoom au survol de l'image */
+
+.grille_img:hover {
+    transform: scale(1.06);
+}
+.grille_img_txt:hover {
+    transform: scale(1.06);
+}
 
 
