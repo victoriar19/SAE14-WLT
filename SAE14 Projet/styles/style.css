@@ -126,3 +126,31 @@ img.image_accueil {
 
 }
 
+/* Ajout d'un effet de surlignement au survol de "en savoir plus" : */
+
+.savoir {
+    width: 100px;
+    height: 70px;
+    color: rgb(150, 179, 86);
+    cursor: pointer;
+    transition: 400ms;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(150, 179, 86), rgb(150, 179, 86));
+    background-size: 0% 0.07em;
+    background-position-y: 100%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+.savoir:hover,
+.savoir:focus,
+.savoir:active {
+    background-size: 100% 0.07em;
+}
+
+
+
+
+
+
