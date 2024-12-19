@@ -39,3 +39,30 @@ main {
     color: rgb(150, 179, 86);
 }
 
+/*Bouton de la barre de navigation entre les pages :*/
+
+.button {
+    font-family: "Host Grotesk", sans-serif;
+    background-color: rgb(243, 207, 55);
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin: 4px 2px;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 0.07em;
+    background-position-y: 73%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+/*Ajout d'un effet de surlignement lors du survol d'un bouton :*/
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-size: 80% 0.07em;
+}
